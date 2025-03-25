@@ -1,0 +1,12 @@
+[package]
+name = "Anuda1"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rust-bert = "0.23.0"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+chrono = "0.4.40"
+ndarray = "0.16.1"
+reqwest = { version = "0.11", features = ["json", "blocking"] }
